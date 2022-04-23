@@ -1,0 +1,83 @@
+.login{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background.jpg");
+}
+
+
+.profileRight{
+  flex: 9;
+}
+
+.profileCover{
+  height: 320px;
+  position: relative;
+}
+
+.profileCoverImg{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profileUserImg{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  right: 85%;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+
+.box{
+  width: 800px;
+  height: 300px;
+  background:#ffffff;
+  box-shadow: 0 0 10px rgba(179, 179, 179, 0.7);
+  position: absolute;
+  top: 150%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.profileInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileInfoName{
+  font-size: 24px;
+  position:absolute;
+  right: 73%;
+  bottom: 25%;
+  color:#f0f2f5
+
+}
+
+.profileRole{
+  font-size: 20px;
+  position:absolute;
+  right: 79.2%;
+  bottom: 14%;
+  color:#6a7b95
+
+}
+
+.profileRightBottom{
+  display: flex;
+}
